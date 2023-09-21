@@ -1,0 +1,118 @@
+body {
+    margin: 0px 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.25em;
+    background-color: rgb(201, 201, 202);
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.nav-item li a:hover {
+    color: #8a8a8a;
+}
+
+/* .nav-item li a:active {
+    color: grey;
+} */
+
+.container div p, li{
+    font-size: x-large;
+    display: inline;
+}
+
+.container div li, a {
+    text-decoration: none;
+    margin-right: 30px;
+    color: black;
+}
+
+.container div p {
+    margin-left: 100px;
+}
+
+.iphone-table {
+    margin: 0px auto;
+    border-collapse: collapse;
+    font-family: 'Rubik', sans-serif;
+}
+
+.iphone-table caption {
+    margin-top: 100px;
+}
+
+.iphone-table td{
+    border: 1px solid white;
+    text-align: center;
+}
+
+.iphone-table img { 
+    width: 200px;
+    margin: 75px 75px 25px 75px;
+    display: block;
+}
+
+.macbook-table {
+    margin: 0px auto;
+    border-collapse: collapse;
+    font-family: 'Rubik', sans-serif;
+}
+
+.macbook-table caption {
+    margin-top: 200px;
+}
+
+.macbook-table td {
+    border: 1px solid white;
+    text-align: center;
+}
+
+.macbook-table img {
+    width: 285px;
+    margin: 75px 75px 25px 75px;
+    display: block;
+}
+
+.watch-table {
+    margin: 0px auto;
+    border-collapse: collapse;
+    font-family: 'Rubik', sans-serif;
+}
+
+.watch-table caption {
+    margin-top: 200px;
+}
+
+.watch-table td {
+    border: 1px solid white;
+    text-align: center;
+}
+
+.watch-table img {
+    width: 200px;
+    margin: 75px 75px 25px 75px;
+    display: block;
+}
+
+footer {
+    margin-top: 200px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.telegram {
+    width: 40px;
+    height: 48px;
+}
+
+.vk {
+    width: 48px;
+    height: 48px;
+}
