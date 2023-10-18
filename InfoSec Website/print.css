@@ -1,0 +1,15 @@
+@media print {
+
+    .container {
+        display: none;
+    }
+
+    body {
+        font-size: medium;
+    }
+
+    .footer {
+        display: none;
+    }
+
+}

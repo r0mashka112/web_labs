@@ -4,107 +4,225 @@
         <meta charset="utf-8">
         <title>InfoSec Market</title>
         <link href="main.css" rel="stylesheet">
+        <link href="print.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
         <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
     </head>
 
-    <header>
-        <div class="container">
-            <div>
-                <p>InfoSec Market</p>
-            </div>
-            <div>
-                <nav>
-                    <ul class="nav-item">
-                        <li><a href="#iphone">iPhone</a></li>
-                        <li><a href="#macbook">MacBook</a></li>
-                        <li><a href="#watch">Apple Watch</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="file:///Users/r0mashka/Documents/InfoSec%20Website/auth.html">Sign In</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div> 
+    <header class="container">
+            <nav class="main-menu">
+                <div class="name-label">
+                    <p>InfoSec Market</p>
+                    <p>x</p>
+                    <img src="content/apple_logo.svg">
+                </div>
+                <div class="navigation">
+                    <a href="#iphone">iPhone</a>
+                    <a href="#macbook">MacBook</a>
+                    <a href="#watch">Apple Watch</a>
+                    <a href="#about">About</a>
+                    <a href="file:///Users/r0mashka/Documents/InfoSec%20Website/auth.html">Sign In</a>
+                </div>
+            </nav>
     </header>
 
     <body>
-        <table id="iphone" class="iphone-table">
-            <caption>Apple iPhone</caption>
-            <tr>
-                <td>
-                    <img src="content/iphone_14_pro_deep_purple.png" alt="iPhone 14 Pro Deep Purple">
-                    Apple iPhone 14 Pro 256GB Deep Purple<br><br>1199$
-                </td>
-                <td>
-                    <img src="content/iphone_14_pro_white.png" alt="iPhone 14 Pro White">
-                    Apple iPhone 14 Pro 256GB White<br><br>1199$
-                </td>
-                <td>
-                    <img src="content/iphone_14_pro_gold.png" alt="iPhone 14 Pro Gold">
-                    Apple iPhone 14 Pro 512GB Gold<br><br>1399$
-                </td>
-            </tr>
+        <p class="good-name" id="iphone">Apple iPhone</p>
 
-            <tr>
-                <td>
-                    <img src="content/iphone_14_red.png" alt="iPhone 14 Red">
-                    Apple iPhone 14 128GB Red<br><br>799$
-                </td>
-                <td>
-                    <img src="content/iphone_14_blue.png" alt="iPhone 14 Blue">
-                    Apple iPhone 14 256GB Blue<br><br>899$
-                </td>
-                <td>
-                    <img src="content/iphone_14_purple.png" alt="iPhone 14 Purple">
-                    Apple iPhone 14 1TB Purple<br><br>1199$
-                </td>
-            </tr>
-        </table>
+        <section class="goods-list">
+            <div class="good">
+                <div class="good-img">
+                    <img src="content/iphone_14_blue.png">
+                </div>
+                <div class="good-description">
+                    <p>iPhone 14 Blue</p>
+                </div>
+                <div class="price">$799</div>
+            </div>
+            <div class="good">
+                <div class="good-img">
+                    <img src="content/iphone_14_red.png">
+                </div>
+                <div class="good-description">
+                    <p>iPhone 14 Red</p>
+                </div>
+                <div class="price">$799</div>
+            </div>
+            <div class="good">
+                <div class="good-img">
+                    <img src="content/iphone_14_purple.png">
+                </div>
+                <div class="good-description">
+                    <p>iPhone 14 Purple</p>
+                </div>
+                <div class="price">$799</div>
+            </div>
+        </section>
 
-        <table id="macbook" class="macbook-table">
-            <caption>Apple MacBook</caption>
-            <tr>
-                <td>
-                    <img src="content/macbook_14_pro_silver.png" alt="MacBook 14 Pro Silver">
-                    Apple MacBook 14 Pro M1 Silver<br><br>1799$
-                </td>
-                <td>
-                    <img src="content/macbook_14_pro_space_gray.png" alt="MacBook 14 Pro Space Gray">
-                    Apple MacBook 14 Pro M2 Silver<br><br>2199$
-                </td>
-                <td>
-                    <img src="content/macbook_16_pro_silver.png" alt="MacBook 16 Pro Silver">
-                    Apple MacBook 16 Pro M2 Silver<br><br>2499$
-                </td>
-            </tr>
-        </table>
+        <section class="goods-list">
+            <div class="good">
+                <div class="good-img">
+                    <img src="content/iphone_14_pro_deep_purple.png">
+                </div>
+                <div class="good-description">
+                    <p>iPhone 14 Pro Deep Purple</p>
+                </div>
+                <div class="price">$999</div>
+            </div>
+            <div class="good">
+                <div class="good-img">
+                    <img src="content/iphone_14_pro_gold.png">
+                </div>
+                <div class="good-description">
+                    <p>iPhone 14 Pro Gold</p>
+                </div>
+                <div class="price">$999</div>
+            </div>
+            <div class="good">
+                <div class="good-img">
+                    <img src="content/iphone_14_pro_white.png">
+                </div>
+                <div class="good-description">
+                    <p>iPhone 14 Pro White</p>
+                </div>
+                <div class="price">$999</div>
+            </div>
+        </section>
 
-        <table id="watch" class="watch-table">
-            <caption>Apple Watch</caption>
-                <tr>
-                    <td>
-                        <img src="content/watch_ultra_2_beige.png" alt="Apple Watch Ultra 2 Beige">
-                        Apple Watch Ultra 2 Beige<br><br>999$
-                    </td>
-                    <td>
-                        <img src="content/watch_ultra_2_orange.png" alt="Apple Watch Ultra 2 Orange">
-                        Apple Watch Ultra 2 Orange<br><br>999$
-                    </td>
-                    <td>
-                        <img src="content/watch_ultra_2_blue.png" alt="Apple Watch Ultra 2 Blue">
-                        Apple Watch Ultra 2 Blue<br><br>999$
-                    </td>
-        </table>
+        <p class="good-name" id="macbook">Apple MacBook</p>
+
+        <section class="goods-list">
+            <div class="good">
+                <div class="good-img-macbook">
+                    <img src="content/macbook_13_air_space_gray.jpeg">
+                </div>
+                <div class="good-description">
+                    <p>MacBook 13 Air M2 Space Gray</p>
+                </div>
+                <div class="price">$1,399</div>
+            </div>
+            <div class="good">
+                <div class="good-img-macbook">
+                    <img src="content/macbook_13_air_gold.jpeg">
+                </div>
+                <div class="good-description">
+                    <p>MacBook 13 Air M2 Gold</p>
+                </div>
+                <div class="price">$1,399</div>
+            </div>
+            <div class="good">
+                <div class="good-img-macbook">
+                    <img src="content/macbook_13_air_blue.png">
+                </div>
+                <div class="good-description">
+                    <p>MacBook 13 Air M2 Blue</p>
+                </div>
+                <div class="price">$1,399</div>
+            </div>
+        </section>
+
+        <section class="goods-list">
+            <div class="good">
+                <div class="good-img-macbook">
+                    <img src="content/macbook_14_pro_silver.png">
+                </div>
+                <div class="good-description">
+                    <p>MacBook 14 M1 Pro Silver</p>
+                </div>
+                <div class="price">$1,799</div>
+            </div>
+            <div class="good">
+                <div class="good-img-macbook">
+                    <img src="content/macbook_14_pro_space_gray.png">
+                </div>
+                <div class="good-description">
+                    <p>MacBook 14 M2 Pro Space Gray</p>
+                </div>
+                <div class="price">$1,999</div>
+            </div>
+            <div class="good">
+                <div class="good-img-macbook">
+                    <img src="content/macbook_16_pro_silver.png">
+                </div>
+                <div class="good-description">
+                    <p>MacBook 16 M2 Pro Silver</p>
+                </div>
+                <div class="price">$2,499</div>
+            </div>
+        </section>
+
+        <p class="good-name" id="watch">Apple Watch</p>
+
+        <section class="goods-list">
+            <div class="good">
+                <div class="good-img">
+                    <img src="content/watch_series_9_blue.png">
+                </div>
+                <div class="good-description">
+                    <p>Apple Watch Series 9 Blue</p>
+                </div>
+                <div class="price">$399</div>
+            </div>
+            <div class="good">
+                <div class="good-img">
+                    <img src="content/watch_series_9_pink.png">
+                </div>
+                <div class="good-description">
+                    <p>Apple Watch Series 9 Pink</p>
+                </div>
+                <div class="price">$399</div>
+            </div>
+            <div class="good">
+                <div class="good-img">
+                    <img src="content/watch_series_9_light_blue.png">
+                </div>
+                <div class="good-description">
+                    <p>Apple Watch Series 9 Light Blue</p>
+                </div>
+                <div class="price">$399</div>
+            </div>
+        </section>
+
+        <section class="goods-list">
+            <div class="good">
+                <div class="good-img">
+                    <img src="content/watch_ultra_2_beige.png">
+                </div>
+                <div class="good-description">
+                    <p>Apple Watch Ultra 2 Beige</p>
+                </div>
+                <div class="price">$799</div>
+            </div>
+            <div class="good">
+                <div class="good-img">
+                    <img src="content/watch_ultra_2_blue.png">
+                </div>
+                <div class="good-description">
+                    <p>Apple Watch Ultra 2 Blue</p>
+                </div>
+                <div class="price">$799</div>
+            </div>
+            <div class="good">
+                <div class="good-img">
+                    <img src="content/watch_ultra_2_orange.png">
+                </div>
+                <div class="good-description">
+                    <p>Apple Watch Ultra 2 Orange</p>
+                </div>
+                <div class="price">$799</div>
+            </div>
+        </section>
     </body>
 
     <footer id="about">
-        <hr>
-        <p>Copyright © 2023 InfoSec Market Inc. All rights reserved.</p>
-        <a class="form-link" href="file:///Users/r0mashka/Documents/InfoSec%20Website/form.html">Fill in the feedback form</a>
-        <div class="social-links">
-            <a href="https://t.me/r0manus"><img class="telegram" src="content/telegram_icon.svg" alt="Telegram Icon"></a>
-            <a href="https://vk.com"><img class="vk" src="content/vk_icon.svg" alt="Telegram Icon"></a>
+        <div class="footer">
+            <p>Copyright © 2023 InfoSec Market Inc. All rights reserved.</p>
+            <a class="form-link" href="file:///Users/r0mashka/Documents/InfoSec%20Website/form.html">Fill in the feedback form</a>
+            <div class="social-links">
+                <a href="https://t.me/r0manus"><img class="telegram" src="content/telegram_icon.svg" alt="Telegram Icon"></a>
+                <a href="https://vk.com"><img class="vk" src="content/vk_icon.svg" alt="Telegram Icon"></a>
+            </div>
         </div>
     </footer>
 </html>
