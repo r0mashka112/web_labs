@@ -1,0 +1,49 @@
+html, body, main {
+    height: 100%;
+    font-family: 'Rubik', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    color: chocolate;
+}
+
+#game {
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+
+#board {
+    margin: auto;
+    width: 300px;
+    height: 300px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    float: left;
+    font-size: 70px;
+    border: 1px solid chocolate;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.new-game-btn {
+    margin-top: 100px;
+    font-size: 20px;
+    color: green;
+    padding: 10px;
+    background-color: greenyellow;
+    border: 1px solid green;
+    border-radius: 10px;
+    cursor: pointer;
+}
